@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC28A7921F8F157B000AD505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A7911F8F157B000AD505 /* AppDelegate.swift */; };
+		DC28A7941F8F157B000AD505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A7931F8F157B000AD505 /* ViewController.swift */; };
+		DC28A7971F8F157B000AD505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC28A7951F8F157B000AD505 /* Main.storyboard */; };
+		DC28A7991F8F157B000AD505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC28A7981F8F157B000AD505 /* Assets.xcassets */; };
+		DC28A79C1F8F157B000AD505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC28A79A1F8F157B000AD505 /* LaunchScreen.storyboard */; };
+		DC28A7A71F8F157B000AD505 /* StepperiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A7A61F8F157B000AD505 /* StepperiosTests.swift */; };
+		DC28A7B21F8F157B000AD505 /* StepperiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A7B11F8F157B000AD505 /* StepperiosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC28A7A31F8F157B000AD505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC28A7861F8F157B000AD505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC28A78D1F8F157B000AD505;
+			remoteInfo = Stepperios;
+		};
+		DC28A7AE1F8F157B000AD505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC28A7861F8F157B000AD505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC28A78D1F8F157B000AD505;
+			remoteInfo = Stepperios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC28A78E1F8F157B000AD505 /* Stepperios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stepperios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC28A7911F8F157B000AD505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC28A7931F8F157B000AD505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC28A7961F8F157B000AD505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC28A7981F8F157B000AD505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC28A79B1F8F157B000AD505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC28A79D1F8F157B000AD505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC28A7A21F8F157B000AD505 /* StepperiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepperiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC28A7A61F8F157B000AD505 /* StepperiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperiosTests.swift; sourceTree = "<group>"; };
+		DC28A7A81F8F157B000AD505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC28A7AD1F8F157B000AD505 /* StepperiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepperiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC28A7B11F8F157B000AD505 /* StepperiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperiosUITests.swift; sourceTree = "<group>"; };
+		DC28A7B31F8F157B000AD505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC28A78B1F8F157B000AD505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A79F1F8F157B000AD505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A7AA1F8F157B000AD505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC28A7851F8F157B000AD505 = {
+			isa = PBXGroup;
+			children = (
+				DC28A7901F8F157B000AD505 /* Stepperios */,
+				DC28A7A51F8F157B000AD505 /* StepperiosTests */,
+				DC28A7B01F8F157B000AD505 /* StepperiosUITests */,
+				DC28A78F1F8F157B000AD505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC28A78F1F8F157B000AD505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A78E1F8F157B000AD505 /* Stepperios.app */,
+				DC28A7A21F8F157B000AD505 /* StepperiosTests.xctest */,
+				DC28A7AD1F8F157B000AD505 /* StepperiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC28A7901F8F157B000AD505 /* Stepperios */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A7911F8F157B000AD505 /* AppDelegate.swift */,
+				DC28A7931F8F157B000AD505 /* ViewController.swift */,
+				DC28A7951F8F157B000AD505 /* Main.storyboard */,
+				DC28A7981F8F157B000AD505 /* Assets.xcassets */,
+				DC28A79A1F8F157B000AD505 /* LaunchScreen.storyboard */,
+				DC28A79D1F8F157B000AD505 /* Info.plist */,
+			);
+			path = Stepperios;
+			sourceTree = "<group>";
+		};
+		DC28A7A51F8F157B000AD505 /* StepperiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A7A61F8F157B000AD505 /* StepperiosTests.swift */,
+				DC28A7A81F8F157B000AD505 /* Info.plist */,
+			);
+			path = StepperiosTests;
+			sourceTree = "<group>";
+		};
+		DC28A7B01F8F157B000AD505 /* StepperiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A7B11F8F157B000AD505 /* StepperiosUITests.swift */,
+				DC28A7B31F8F157B000AD505 /* Info.plist */,
+			);
+			path = StepperiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC28A78D1F8F157B000AD505 /* Stepperios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC28A7B61F8F157B000AD505 /* Build configuration list for PBXNativeTarget "Stepperios" */;
+			buildPhases = (
+				DC28A78A1F8F157B000AD505 /* Sources */,
+				DC28A78B1F8F157B000AD505 /* Frameworks */,
+				DC28A78C1F8F157B000AD505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stepperios;
+			productName = Stepperios;
+			productReference = DC28A78E1F8F157B000AD505 /* Stepperios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC28A7A11F8F157B000AD505 /* StepperiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC28A7B91F8F157B000AD505 /* Build configuration list for PBXNativeTarget "StepperiosTests" */;
+			buildPhases = (
+				DC28A79E1F8F157B000AD505 /* Sources */,
+				DC28A79F1F8F157B000AD505 /* Frameworks */,
+				DC28A7A01F8F157B000AD505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC28A7A41F8F157B000AD505 /* PBXTargetDependency */,
+			);
+			name = StepperiosTests;
+			productName = StepperiosTests;
+			productReference = DC28A7A21F8F157B000AD505 /* StepperiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC28A7AC1F8F157B000AD505 /* StepperiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC28A7BC1F8F157B000AD505 /* Build configuration list for PBXNativeTarget "StepperiosUITests" */;
+			buildPhases = (
+				DC28A7A91F8F157B000AD505 /* Sources */,
+				DC28A7AA1F8F157B000AD505 /* Frameworks */,
+				DC28A7AB1F8F157B000AD505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC28A7AF1F8F157B000AD505 /* PBXTargetDependency */,
+			);
+			name = StepperiosUITests;
+			productName = StepperiosUITests;
+			productReference = DC28A7AD1F8F157B000AD505 /* StepperiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC28A7861F8F157B000AD505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DC28A78D1F8F157B000AD505 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DC28A7A11F8F157B000AD505 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC28A78D1F8F157B000AD505;
+					};
+					DC28A7AC1F8F157B000AD505 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC28A78D1F8F157B000AD505;
+					};
+				};
+			};
+			buildConfigurationList = DC28A7891F8F157B000AD505 /* Build configuration list for PBXProject "Stepperios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC28A7851F8F157B000AD505;
+			productRefGroup = DC28A78F1F8F157B000AD505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC28A78D1F8F157B000AD505 /* Stepperios */,
+				DC28A7A11F8F157B000AD505 /* StepperiosTests */,
+				DC28A7AC1F8F157B000AD505 /* StepperiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC28A78C1F8F157B000AD505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28A79C1F8F157B000AD505 /* LaunchScreen.storyboard in Resources */,
+				DC28A7991F8F157B000AD505 /* Assets.xcassets in Resources */,
+				DC28A7971F8F157B000AD505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A7A01F8F157B000AD505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A7AB1F8F157B000AD505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC28A78A1F8F157B000AD505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28A7941F8F157B000AD505 /* ViewController.swift in Sources */,
+				DC28A7921F8F157B000AD505 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A79E1F8F157B000AD505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28A7A71F8F157B000AD505 /* StepperiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A7A91F8F157B000AD505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28A7B21F8F157B000AD505 /* StepperiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC28A7A41F8F157B000AD505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC28A78D1F8F157B000AD505 /* Stepperios */;
+			targetProxy = DC28A7A31F8F157B000AD505 /* PBXContainerItemProxy */;
+		};
+		DC28A7AF1F8F157B000AD505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC28A78D1F8F157B000AD505 /* Stepperios */;
+			targetProxy = DC28A7AE1F8F157B000AD505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC28A7951F8F157B000AD505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC28A7961F8F157B000AD505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC28A79A1F8F157B000AD505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC28A79B1F8F157B000AD505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC28A7B41F8F157B000AD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC28A7B51F8F157B000AD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC28A7B71F8F157B000AD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stepperios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.Stepperios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC28A7B81F8F157B000AD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stepperios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.Stepperios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC28A7BA1F8F157B000AD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StepperiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.StepperiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stepperios.app/Stepperios";
+			};
+			name = Debug;
+		};
+		DC28A7BB1F8F157B000AD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StepperiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.StepperiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stepperios.app/Stepperios";
+			};
+			name = Release;
+		};
+		DC28A7BD1F8F157B000AD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StepperiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.StepperiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Stepperios;
+			};
+			name = Debug;
+		};
+		DC28A7BE1F8F157B000AD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StepperiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.StepperiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Stepperios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC28A7891F8F157B000AD505 /* Build configuration list for PBXProject "Stepperios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28A7B41F8F157B000AD505 /* Debug */,
+				DC28A7B51F8F157B000AD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC28A7B61F8F157B000AD505 /* Build configuration list for PBXNativeTarget "Stepperios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28A7B71F8F157B000AD505 /* Debug */,
+				DC28A7B81F8F157B000AD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC28A7B91F8F157B000AD505 /* Build configuration list for PBXNativeTarget "StepperiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28A7BA1F8F157B000AD505 /* Debug */,
+				DC28A7BB1F8F157B000AD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC28A7BC1F8F157B000AD505 /* Build configuration list for PBXNativeTarget "StepperiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28A7BD1F8F157B000AD505 /* Debug */,
+				DC28A7BE1F8F157B000AD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC28A7861F8F157B000AD505 /* Project object */;
+}
